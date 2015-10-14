@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+  <script src="./js/index-final.js"></script>
+</head>
+<body>
+<h1>connect the news - a visual news interface</h1>
+    <div id="loadOverlay"></div>
+    <div id="worldbutton"></div>
+    <div id="map"></div>
+    <span id="closepanel">X</span>
+    <div id="contentcontainer">
+        <div id="contentpanel">
+            <h2 id="title"></h2>
+            <div id="date"></div>
+            <div id="countries"></div>
+            <div id="content"></div><br>
+            <div id="source"></div>
+        </div>
+    </div>
+    <div id="filters">
+        <form>
+          <span style="font-size:24px;">Filters: </span>
+          <input type="radio" name="filter" value="economic"> Economic
+          <input type="radio" name="filter" value="political"> Political
+          <input type="radio" name="filter" value="none" checked="checked"> None
+        </form>
+    </div>
+</body>
+</html>
